@@ -1,0 +1,386 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.mainbody-ss .mainbody-ssright .mainbody-cardiv {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #909090;
+  display: block;
+  margin-bottom: 20px;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssimage {
+  margin-bottom: 20px;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssimage img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0%;
+  vertical-align: middle;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssimage source {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0%;
+  vertical-align: middle;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-sstitle {
+  margin-bottom: 5px;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-sstitle i {
+  color: #db2d2e;
+  display: table-cell;
+  width: 30px;
+  font-size: 20px;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-sstitle h3 a {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+  color: #363636;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  display: block;
+  font-weight: 700;
+  text-decoration: none;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-sstitle h3 a:hover {
+  color: #db2d2e;
+  transition: all 0.5s ease-in-out;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssdate {
+  margin-bottom: 15px;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssdate .dates-class {
+  margin: 0%;
+  padding: 0%;
+  padding-left: 0px;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssdate .dates-class li {
+  line-height: 24px;
+  padding: 0%;
+  margin: 0%;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssdate .dates-class li a {
+  text-decoration: none;
+  color: #999999;
+  padding-right: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssdate .dates-class li a i {
+  color: #db2d2e;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssdate .dates-class li a:hover {
+  color: #db2d2e;
+  transition: all 0.5s ease-in-out;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssparagraph p {
+  margin-bottom: 10px;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #999999;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssbutton a.first-aas {
+  margin-bottom: 0px;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  border: 0px solid transparent;
+  background-color: #db2d2e;
+  color: #ffffff;
+  text-transform: capitalize;
+  padding: 10px 20px;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssbutton a.first-aas:hover {
+  background: #363636;
+  transform: perspective(10px) translateY(5px);
+  transition-duration: 0.5s;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssbutton .car-sshare {
+  position: relative;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssbutton .car-sshare:hover .none-shares {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-25px);
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssbutton .car-sshare .second-aas {
+  padding: 8px 15px;
+  display: inline-block;
+  background: #db2d2e;
+  color: #ffffff;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssbutton .car-sshare .none-shares {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  top: 10px;
+  transition: all 900ms ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  padding: 0px;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssbutton .car-sshare .none-shares li {
+  margin: 0px 5px;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssbutton .car-sshare .none-shares li a {
+  color: #db2d2e;
+}
+.mainbody-ss .mainbody-ssright .mainbody-cardiv .car-ssbutton .car-sshare .none-shares li a:hover {
+  color: #363636;
+  transition: all 0.5s ease-in-out;
+}
+.mainbody-ss .mainbody-ssleft {
+  position: relative;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-search {
+  padding-top: 60px;
+  margin-bottom: 40px;
+  width: 80%;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-search h6 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-search h6::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #db2d2e;
+  left: 0;
+  bottom: 0px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-search .car-ssearch {
+  position: relative;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-search .car-ssearch input {
+  width: 85%;
+  color: #323232;
+  height: 45px;
+  border: 1px solid transparent;
+  background: #f6f6f6;
+  outline: none;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-search .car-ssearch .car-ssubmit {
+  background: #db2d2e;
+  position: absolute;
+  right: 4px;
+  top: 1px;
+  padding: 0 12px;
+  font-size: 14px;
+  color: #fff;
+  width: auto;
+  line-height: 42px;
+  height: 43px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-search .car-ssearch .car-ssubmit:hover {
+  background: #323232;
+  transition: all 0.5s ease-in-out;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-category {
+  width: 80%;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-category h6 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-category h6::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #db2d2e;
+  left: 0;
+  bottom: 0px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-category .car-sscategory .form-select {
+  background-color: #fff;
+  border-radius: 0;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  clear: both;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  height: 42px;
+  line-height: 40px;
+  outline: 0;
+  padding-left: 18px;
+  padding-right: 30px;
+  position: relative;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-category .car-sscategory .form-select .firstttt {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  height: 42px;
+  line-height: 40px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-recentpost {
+  margin-top: 100px;
+  width: 80%;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-recentpost h6 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-recentpost h6::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #db2d2e;
+  left: 0;
+  bottom: 0px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-recentpost .recentpost-part {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-recentpost .recentpost-part .recentpost-image {
+  padding-right: 15px;
+  width: 70px;
+  height: 54px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-recentpost .recentpost-part .recentpost-info {
+  display: table-cell;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-recentpost .recentpost-part .recentpost-info a {
+  color: #909090;
+  font-size: 16px;
+  vertical-align: top;
+  display: block;
+  text-decoration: none;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-recentpost .recentpost-part .recentpost-info a:hover {
+  transition: all 0.5s ease-in-out;
+  color: #db2d2e;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-recentpost .recentpost-part .recentpost-info span {
+  color: #909090;
+  font-size: 14px;
+  display: table;
+  padding-top: 5px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-tagcloud {
+  width: 80%;
+  margin-bottom: 40px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-tagcloud h6 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-tagcloud h6::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #db2d2e;
+  left: 0;
+  bottom: 0px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-tagcloud .tagcloud-tags .taggler {
+  display: block;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-tagcloud .tagcloud-tags .taggler li {
+  display: inline-block;
+  width: auto;
+  border: none;
+  padding: 0px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-tagcloud .tagcloud-tags .taggler li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #999999;
+  border: 1px solid #e3e3e3;
+  background: transparent;
+  padding: 2px 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-tagcloud .tagcloud-tags .taggler li a:hover {
+  color: #fff;
+  background: #db2d2e;
+  transition: all 0.5s ease-in-out;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-paragraphadress {
+  width: 80%;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-paragraphadress .mainbody-paragraph {
+  width: 80%;
+  margin-bottom: 20px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-paragraphadress .mainbody-paragraph p {
+  margin: 0 0 10px;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #999999;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-paragraphadress .mainbody-adress .adress-map li {
+  color: #999999;
+  padding-bottom: 15px;
+}
+.mainbody-ss .mainbody-ssleft .mainbody-paragraphadress .mainbody-adress .adress-map li a {
+  text-decoration: none;
+  color: #999999;
+}
+@media (max-width: 768px) {
+  .mainbody-ss .mainbody-ss {
+    display: block;
+  }
+  .mainbody-ss .mainbody-ss .mainbody-ssleft {
+    width: 100%;
+    order: 0;
+  }
+  .mainbody-ss .mainbody-ss .mainbody-ssleft .mainbody-search .car-ssearch input {
+    width: 100%;
+  }
+  .mainbody-ss .mainbody-ss .mainbody-ssright {
+    width: 100%;
+    order: 1;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .mainbody-ss .mainbody-ss {
+    display: flex;
+  }
+  .mainbody-ss .mainbody-ss .mainbody-ssleft {
+    position: relative;
+  }
+}/*# sourceMappingURL=style.css.map */
